@@ -7,6 +7,8 @@
 - [Getting Started](ch01-00-getting-started.md)
     - [Hello, World!](ch01-02-hello-world.md)
     - [Coding Style](ch01-04-coding-style.md)
+    - [Xous by example](ch01-03-xous-by-example.md)
+    - [Glossary](ch01-04-glossary.md)
 
 - [Server Architecture](ch02-00-server-architecture.md)
     - [Synchronization](ch02-04-synchronization.md)

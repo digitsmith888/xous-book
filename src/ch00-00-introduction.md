@@ -18,7 +18,10 @@ Chapter [9 (PDDB)](ch09-00-pddb-overview.md) covers the Plausibly Deniable DataB
 
 ## Getting Help on Devices
 
-This book focuses on the Xous kernel. For device-specific questions (e.g., how to update or factory reset a Precusor), please [visit our wiki](https://github.com/betrusted-io/betrusted-wiki/wiki). You can also [join our Matrix community](https://matrix.to/#/#precursor.dev:matrix.org) and chat with our community members for help.
+This book focuses on the Xous kernel.
+
+- Precursor users please [visit our wiki](https://github.com/betrusted-io/betrusted-wiki/wiki). You can also [join our Matrix community](https://matrix.to/#/#precursor.dev:matrix.org) and chat with our community members for help.
+- Baochip users please [join our discord](https://discord.gg/c7YKtTWx) and also see [Getting started with Baochip Targets](https://github.com/betrusted-io/xous-core/blob/main/README-baochip.md). There is also a `vscode` extension named `baochip`.
 
 ----------------
 
@@ -31,7 +34,7 @@ Architecturally, Xous is most similar to [QNX](https://www.qnx.com/developers/do
 ### Servers
 
 There are only a few "well known" Servers which are always available to receive Messages, and run the requested Opcode:
-- The `xous-name-server` maintains a list of all registered Servers by name, and guards a randomised 128-bit **Server ID** for each of the Servers. The xous-name-server arbitrates the flow of Messages between Servers.
+- The `xous-name-server` maintains a list of all registered Servers by name, and guards a randomized 128-bit **Server ID** for each of the Servers. The xous-name-server arbitrates the flow of Messages between Servers.
 - The `ticktimer-server` provides time and time-out related services.
 - The `xous-log-server ` provides logging services.
 - The `timeserverpublic` provides real-time (wall-clock time) services. It is only accessed via `std::time` bindings.
